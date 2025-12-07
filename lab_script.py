@@ -19,7 +19,7 @@ print("\n⚙️ Configuration du lab...")
 MODEL_CHOICE = "openai/whisper-small"  # Essayez aussi: "openai/whisper-tiny" pour plus rapide
 
 # Chemin vers vos fichiers
-AUDIO_FILES = ["audio/test1.wav", "audio/test2.wav", "audio/test3.wav"]
+AUDIO_FILES = ["audio/test1.mp3", "audio/test2.mp3", "audio/test3.mp3"]
 REF_FILES = ["references/test1.txt", "references/test2.txt", "references/test3.txt"]
 
 print(f"Modèle sélectionné: {MODEL_CHOICE}")
